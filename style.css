@@ -1,0 +1,118 @@
+*:focus {outline: 0;}
+body {
+	margin: 0px;
+}
+
+#header {
+	width: 100%;
+	height: 50px;
+	margin-top: 0px;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+#footer {
+	width: 100%;
+	height: 50px;
+	background-color: #eee;
+	border-top: 1px solid #ccc;
+	margin-bottom: 0px;
+	position: absolute;
+	bottom: 0px;
+}
+
+#content {
+	width: 50%;
+	vertical-align: middle;
+	
+	margin: auto;
+}
+
+#avatar {
+	float: right; 
+	height: 30px; 
+	width: 30px; 
+	border-radius: 15px; 
+	border: 1px solid #777; 
+	margin: 10 30 10 10px;
+}
+
+#logo {
+	display: block;
+	width: 350px;
+	margin: auto;
+}
+
+#logocountry {
+	position: relative;
+	left: 420px;
+	top: -70px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #444;
+}
+
+#searchbox {
+	width: 100%;
+	height: 2.5em;
+	border: 1px solid #aaa;
+	border-radius: 2px;
+	padding: 0 7 0 7px;
+}
+
+#searchbox:hover{
+	border: 1px solid #444;
+}
+
+#searchbox:focus {
+	border: 1px solid #77f;
+	outline: none;
+}
+
+#searchbuttons {
+	width="100%"
+	border-radius: 2px;
+}
+
+#submitbutton		{
+	-webkit-appearance: none;
+	border-radius: 2px;
+	width: 20%;
+	height: 30px;
+	margin: 0 5 0 5px;
+	border: 1px solid #aaa;
+	background-color: #ddd;
+	font-weight: bold;
+	outline: none;
+}
+
+#submitbutton:hover {
+	height: 31px;
+	border-bottom: 2px solid #aaa;
+}
+ul {
+	padding-left: 30px;
+
+	list-style-position: inside;	
+}
+
+li {
+	padding: 5px;
+	margin: 0px;
+	display: inline-block;
+	list-style-position: inside;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #444;
+}
+
+a {
+	font-size: 0.9em;
+	font-weight: normal;
+	color: #777;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
